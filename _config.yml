@@ -1,0 +1,27 @@
+title: Guilherme Tadeu
+author: GuiTadeu
+email: gtadeu0147@gmail.com
+description: >
+  Artigos e anotações sobre Java, Spring, Microserviços, Engenharia de Software
+  e muito mais!
+show_excerpts: true
+baseurl: /blog
+
+sass:
+  sass_dir: _sass
+
+permalink: /posts/:title/
+texture:
+  title: Guilherme Tadeu
+  tagline: Software Developer
+  date_format: "%b %-d, %Y"
+  style: blue
+  showNav: true
+  showPicker: false
+
+  social_links:
+    github: GuiTadeu
+    linkedIn: in/guitadeu
+
+plugins:
+  - jekyll-seo-tag
