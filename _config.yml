@@ -5,7 +5,7 @@ description: >
   Artigos e anotações sobre Java, Spring, Microserviços, Engenharia de Software
   e muito mais!
 show_excerpts: true
-baseurl: /blog
+baseurl: ""
 
 sass:
   sass_dir: _sass
