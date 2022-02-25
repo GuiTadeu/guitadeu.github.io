@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Resumo - Solid para Ninjas"
+title:  "Solid para Ninjas"
 date:   2021-02-25 20:15:00 +0530
 ---
+
+## Introdução
 
 Este post é um resumão do livro SOLID para Ninjas - Projetando Classes Flexíveis do Maurício Aniche.
 
@@ -24,25 +26,25 @@ E finalizando, é dito que o livro vem justamente para ajudar a mitigar esses pr
 Neste capítulo é abordado o S do SOLID que é o Princípio de Responsabilidade Única.
 Segue os principais pontos que são abordados:
 
-#### 1. Uma classe coesa possui 1 única responsabilidade
+**1. Uma classe coesa possui 1 única responsabilidade**
 
 Direto ao ponto, se uma classe deve fazer X ela só deve fazer X.
 Caso ela esteja fazendo mais do que se propõe estamos quebrando a coesão e por consequência o SRP.
 
-#### 2. Uma classe não coesa tem N motivos para continuar crescendo
+**2. Uma classe não coesa tem N motivos para continuar crescendo**
 
 Caso sua classe aumente de tamanho conforme o tempo isso pode significar que ela tem mais responsabilidades do que deveria. Para resolver isso deve-se dividir a responsabilidade com outras classes.
 
-#### 3. Métodos privados não resolvem coesão de classes
+**3. Métodos privados não resolvem coesão de classes**
 
 Podemos cair na tentação de querer separar a classe em funções internas.
 Os métodos privados são úteis para melhorar a legibilidade do código mas caso sua classe realmente esteja com problemas de coesão siga o tópico 2 e divida com outras classes.
 
-#### 4. Métodos públicos grandes demais podem se tornar classes
+**4. Métodos públicos grandes demais podem se tornar classes**
 
 Métodos públicos expõem, geralmente, dados da sua classe mãe. Se ele começar a ficar grande também é um indício de que a classe e o método tem mais responsabilidades do que deveriam. Nesse caso, talvez vale a pena extraír o método para uma classe.
 
-#### 5. CTRL + F para propagar mudanças pode ser code smell
+**5. CTRL + F para propagar mudanças pode ser code smell**
 
 Quando você altera uma classe e precisa usar CTRL + F constantemente para fazer a mesma alteração em N pontos do código pode significar falha na coesão.
 
@@ -51,13 +53,13 @@ Se há 4 classes, por exemplo, com um comportamento interno muito semelhante, po
 
 Dessa forma deixamos a responsabilidade centralizada, facilmente reutilizável e alterável.
 
-#### 6. Dois comportamentos pertencem a mesma responsabilidade se ambos mudam juntos
+**6. Dois comportamentos pertencem a mesma responsabilidade se ambos mudam juntos**
 
 Caso a alteração em um método A altere o funcionamento em um método B pode significar que eles possuem a mesma responsabilidade. Isso é o que chamamos de efeito colateral e que deve ser evitado com todas as suas forças.
 
 Caso perceba isso no código refatore os comportamentos para que um não interfira no outro. Separe que o que há de comum entre os dois em um outro ponto de código.
 
-#### 7. Procurando classes não coesas
+**7. Procurando classes não coesas**
 
 Como pode perceber acima, temos alguns pontos em comum de classes com baixa coesão:
 
@@ -67,7 +69,7 @@ Como pode perceber acima, temos alguns pontos em comum de classes com baixa coes
 
 Procure por esses pontos no seu projeto e busque refatorar para corrigi-los.
 
-#### 8. Entender o domínio ajuda a identificar problemas de coesão
+**8. Entender o domínio ajuda a identificar problemas de coesão**
 
 Esse tópico tem muito a ver com abstração. Se abstrairmos demais corremos o risco sério de quebrar a coesão.
 
@@ -78,7 +80,7 @@ Entender o que é necessário e o que não é ajudam a identificar problemas de 
 Em outras palavras, sabendo que o videogame preferido do usuário, em tese, não deveria fazer parte do cadastro dele você
 facilmente identificaria um problema de coesão caso encontrasse esse atributo perdido na classe.
 
-#### 9. Problemas simples == if simples
+**9. Problemas simples == if simples**
 
 Projetar classes é um desafio tremendo pois até quando achamos estar fazendo a coisa certa, podemos não estar.
 Muitas vezes podemos criar classes ultra flexíveis, com alto reúso, baixo acoplamento, etc e tal...
@@ -91,7 +93,7 @@ Ficar pensando no que a sua aplicação vai suportar daqui a 10 anos não irá a
 
 Comece no básico e vai evoluindo/refatorando conforme achar necessidade.
 
-#### 10. Não iremos conseguir escrever classes coesas o tempo inteiro
+**10. Não iremos conseguir escrever classes coesas o tempo inteiro**
 
 E para finalizar o capítulo, um trecho bem bacana diz que "código de qualidade é incremental".
 Ou seja, modelamos depois observamos, aprendemos e depois melhoramos.
