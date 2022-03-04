@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Introdução ao Prometheus e Grafana"
-date:   2021-02-25 20:15:00 +0530
+date:   2021-03-04 19:00:00 +0530
 ---
 
 Este post é um resumão do vídeo [Introdução ao Prometheus e Grafana: Monitoramento Inteligente de Aplicações](https://www.youtube.com/watch?v=GPptIhzPBro) do canal [Full Cycle](https://www.youtube.com/channel/UCMUoZehUZBhLb8XaTc8TQrA).
