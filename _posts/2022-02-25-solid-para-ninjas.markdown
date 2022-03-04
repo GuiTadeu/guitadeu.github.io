@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Solid para Ninjas"
-date:   2021-02-25 20:15:00 +0530
+date:   2022-02-25 20:15:00 +0530
 ---
 
 Este post é um resumão do livro SOLID para Ninjas - Projetando Classes Flexíveis do Maurício Aniche.
