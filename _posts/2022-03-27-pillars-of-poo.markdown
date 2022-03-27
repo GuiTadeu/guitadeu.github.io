@@ -66,22 +66,13 @@ Quando uma classe herda e adiciona mais atributos ou comportamentos.
 
 ### Abstrato e Final
 
-- Classe Abstrata
+- **Classe Abstrata** não pode ser instanciada. Só pode servir como superclasse.
 
-Não pode ser instanciada. Só pode servir como superclasse.
+- **Método Abstrato** é declarado mas não implementado pela superclasse.
 
-- Método Abstrato
+- **Classe Final** não pode ser herdada por outra classe (Obrigatoriamente é uma classe folha).
 
-Declarado mas não implementado pela superclasse.
-
-- Classe Final
-
-Não pode ser herdada por outra classe.
-Obrigatoriamente é uma classe folha.
-
-- Método Final
-
-Não pode ser sobrescrito pelas suas sub-classes. Obrigatoriamente herdado.
+- **Método Final** não pode ser sobrescrito pelas suas subclasses (Obrigatoriamente herdado).
 
 ## Polimorfismo
 
