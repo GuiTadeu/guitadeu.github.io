@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "Solid para Ninjas"
+title:  "Coesão e o Princípio de Responsabilidade Única"
 date:   2022-02-25 20:15:00 +0530
 ---
 
-Este post é um resumão do livro SOLID para Ninjas - Projetando Classes Flexíveis do Maurício Aniche.
-
-Ele ainda está em construção e irei adicionando novos conteúdos capítulo por capítulo...
+Este post é um resumão do capítulo 1 e 2 do livro SOLID para Ninjas - Projetando Classes Flexíveis do Maurício Aniche.
 
 ## Capítulo 01 - Orientação a Objetos, para que te quero?
 
@@ -102,4 +100,4 @@ O importante é saber que sempre se pode melhorar...
 
 ##  Capítulo 03 - Acoplamento e o tal do DIP
 
-Em breve...
+Em breve no link mais próximo de sua casa...
