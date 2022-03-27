@@ -46,35 +46,41 @@ ACA -> AC -> A
 
 Onde:
 
-A: Classe raíz, superclasse, Mãe de AC, ancestral de ACA
+- A: Classe raíz, superclasse, Mãe de AC, ancestral de ACA
 
-AC: Filha de A (subclasse), Mãe de ACA (superclasse)
+- AC: Filha de A (subclasse), Mãe de ACA (superclasse)
 
-ACA: Classe folha, Filha de AC (subclasse), descendente de A
+- ACA: Classe folha, Filha de AC (subclasse), descendente de A
 
 Quando percorremos a árvore de cima pra baixo (da raíz até as folhas) chamamos de Especialização. Já o contrário é chamado de Generalização.
 
 ### Tipos de Heranças
 
-1. De Implementação
+**De Implementação**
+
 Considerada herança pobre, a herança mais simples que tem. É quando uma classe herda e não tem nada mais a compor.
 
-2. Para Diferença
+**Para Diferença**
+
 Quando uma classe herda e adiciona mais atributos ou comportamentos.
 
 ### Abstrato e Final
 
-1. Classe Abstrata
+**Classe Abstrata**
+
 Não pode ser instanciada. Só pode servir como superclasse.
 
-2. Método Abstrato
+**Método Abstrato**
+
 Declarado mas não implementado pela superclasse.
 
-3. Classe Final
+**Classe Final**
+
 Não pode ser herdada por outra classe.
 Obrigatoriamente é uma classe folha.
 
-4. Método Final
+**Método Final**
+
 Não pode ser sobrescrito pelas suas sub-classes. Obrigatoriamente herdado.
 
 ## Polimorfismo
