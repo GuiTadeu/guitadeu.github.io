@@ -66,20 +66,20 @@ Quando uma classe herda e adiciona mais atributos ou comportamentos.
 
 ### Abstrato e Final
 
-**Classe Abstrata**
+- Classe Abstrata
 
 Não pode ser instanciada. Só pode servir como superclasse.
 
-**Método Abstrato**
+- Método Abstrato
 
 Declarado mas não implementado pela superclasse.
 
-**Classe Final**
+- Classe Final
 
 Não pode ser herdada por outra classe.
 Obrigatoriamente é uma classe folha.
 
-**Método Final**
+- Método Final
 
 Não pode ser sobrescrito pelas suas sub-classes. Obrigatoriamente herdado.
 
@@ -96,6 +96,7 @@ Consiste na quantidade e os tipos dos parâmetros. Caso tenhamos o mesmo valor e
 ### Tipos de Polimorfismo
 
 **Sobreposição**
+
 É quando sobrescrevemos o método. Geralmente usamos o @Override no Java, por exemplo. Permite fazer a mesma coisa com comportamentos diferentes.
 
 Em outras palavras, acontece quando substítuimos um método de uma superclasse na sua subclasse usando a mesma assinatura.
