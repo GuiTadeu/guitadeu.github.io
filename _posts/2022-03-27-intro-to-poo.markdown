@@ -43,27 +43,27 @@ Os métodos vão usar os dados de seu respectivo objeto e pode haver troca de da
 
 ## Vantagens (COMERNada)
 
-1. Confiável
+**Confiável**
 
 O isolamento entre as partes gera software seguro. Ao alterar uma parte nenhuma outra é afetada.
 
-2. Oportuno
+**Oportuno**
 
 Ao dividir tudo em partes várias delas podem ser desenvolvidas em paralelo.
 
-3. Manutenível
+**Manutenível**
 
 Atualizar um software é mais fácil. Uma pequena modificação vai beneficiar todas as partes que usarem o objeto.
 
-4. Extensível
+**Extensível**
 
 O software não é estático. Ele deve crescer para permanecer útil.
 
-5. Reutilizável
+**Reutilizável**
 
 Podemos usar objetos que criamos em outro sistema futuro.
 
-6. Natural
+**Natural**
 
 Uma coisa natural é mais fácil de entender. Você se preocupa mais na funcionalidade do que nos detalhes de implementação.
 
@@ -85,15 +85,15 @@ A quantidade de atributos que um objeto pode ter pode ser grande. Quais são os 
 
 Seguindo a ideia da UML e o Diagrama de Classes temos os seguintes modificadores de visibilidade:
 
-1. Public (+)
+**Public (+)**
 
 A classe atual e todas as outras classes tem acesso aos atributos ou métodos.
 
-2. Private (-)
+**Private (-)**
 
 Somente a classe atual vai ter acesso aos atributos ou métodos.
 
-3. Protected (#)
+**Protected (#)**
 
 Somente a classe atual e as suas sub-classes vão ter acesso aos atributos ou métodos.
 
@@ -101,7 +101,7 @@ Somente a classe atual e as suas sub-classes vão ter acesso aos atributos ou m�
 
 Essa foi a parte introdutória do curso que apresentou um pouco da história do paradigma e alguns conceitos como classe, objetos e abstração.
 Vale ressaltar que na bibliografia escolhida pelo professor a Abstração não é considerada um pilar, nesse caso ela faz parte do encapsulamento.
-Há um outro post criado para os pilares da orientação a objetos e você pode lê-lo aqui: [Pilares da Programação Orientada a Objetos](https://guitadeu.github.io/posts/pillars-of-poo).
+Há um outro post criado para os pilares da orientação a objetos e você pode acessá-lo aqui: [Pilares da Programação Orientada a Objetos](https://guitadeu.github.io/posts/pillars-of-poo).
 
 Bons estudos!
 

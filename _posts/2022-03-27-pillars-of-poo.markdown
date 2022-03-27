@@ -89,14 +89,14 @@ Consiste na quantidade e os tipos dos parâmetros. Caso tenhamos o mesmo valor e
 
 ### Tipos de Polimorfismo
 
-1. Sobreposição
+**Sobreposição**
 É quando sobrescrevemos o método. Geralmente usamos o @Override no Java, por exemplo. Permite fazer a mesma coisa com comportamentos diferentes.
 
 Em outras palavras, acontece quando substítuimos um método de uma superclasse na sua subclasse usando a mesma assinatura.
 
 Resumo: Mesma assinatura em classes diferentes.
 
-2. Sobrecarga
+**Sobrecarga**
 
 Quando usamos o mesmo nome do método e alteramos os seus atributos (assinaturas diferentes) podendo assim condicionar o comportamento.
 
@@ -112,6 +112,6 @@ Precisamos abstrair para encapsular (interfaces), herdar (abstract e final) e po
 Por isso um bom design de classes é tão importante quanto saber os pilares.
 Para isso temos o SOLID que são os pilares aplicados com boas práticas.
 
-Recomendo a leitura sobre o assunto, já há um artigo sobre SRP aqui: [Coesão e SRP](https://guitadeu.github.io/posts/solid-srp).
+Recomendo a leitura sobre o assunto, já há um artigo sobre SRP aqui: [Coesão e o Princípio de Responsabilidade Única](https://guitadeu.github.io/posts/solid-srp).
 
 Bons estudos!
